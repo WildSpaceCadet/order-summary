@@ -1,0 +1,126 @@
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 16px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+  width: 50vh;
+}
+
+section {
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.info {
+  margin: 0 15%;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.note {
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.change {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+.change:hover {
+  color: hsl(245, 75%, 52%);
+}
+
+.Plan {
+  margin-right: 0;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.amount {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3px;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 12px 30px #666666;
+  -moz-box-shadow: 0px 12px 30px #666666;
+  box-shadow: 0px 12px 30px #666666;
+  color: #ffffff;
+  background: hsl(245, 75%, 52%);
+  padding: 12px 100px 12px 100px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.Cancel {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+
+.Cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
